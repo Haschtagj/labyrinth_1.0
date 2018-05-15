@@ -1,6 +1,6 @@
 from socket import socket
 
-host_name, bind_to = 'localhost', 8200
+host_name, bind_to = 'localhost', 80005
 
 client_socket = socket()
 
