@@ -1,6 +1,6 @@
 from socket import socket, AF_INET, SOCK_STREAM
 
-host_name, port = '', 8200
+host_name, port = '', 80005
 
 server_sock = socket(family=AF_INET, type=SOCK_STREAM)
 server_sock.bind((host_name, port))
